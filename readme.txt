@@ -19,6 +19,6 @@ int main()
         count++;   //由于第一次已经进入循环，因此需要提前加1  
         num = num&(num-1);   
     }  
-    printf("%d\n",count);  
+    printf("%d\n",count); //输出1的个数 
     return 0;  
 }  
